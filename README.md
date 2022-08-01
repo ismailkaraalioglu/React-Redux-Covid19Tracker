@@ -42,3 +42,8 @@ npm start or yarn start
 :point_right: React-Chartjs-2 <br />
 
 ## Screenshot
+
+![./src/screenshot/screenshot1.jpg](./src/screenshot/screenshot1.jpg)
+![./src/screenshot/screenshot2.jpg](./src/screenshot/screenshot2.jpg)
+![./src/screenshot/screenshot3.jpg](./src/screenshot/screenshot3.jpg)
+![./src/screenshot/screenshot4.jpg](./src/screenshot/screenshot4.jpg)

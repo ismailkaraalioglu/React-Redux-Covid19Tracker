@@ -22,7 +22,7 @@ function Footer() {
           Created with care by{" "}
           <a
             className="text-blue-700 hover:opacity-60"
-            href="https://github.com/ismailkaraalioglu/React-Redux-Covid19Tracker"
+            href="https://github.com/ismailkaraalioglu"
           >
             İsmail Karaalioğlu
           </a>
@@ -31,7 +31,7 @@ function Footer() {
 
       <div className="flex justify-center gap-x-5 mt-5 pb-8">
         <button className="opacity-20 hover:opacity-100 dark:text-white dark:opacity-30 dark:hover:opacity-100">
-          <a href="https://github.com/ismailkaraalioglu">
+          <a href="https://github.com/ismailkaraalioglu/React-Redux-Covid19Tracker">
             <FaGithub size={35} />
           </a>
         </button>
