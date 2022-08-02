@@ -4,7 +4,7 @@
 
 ## :sparkles: Live Demo
 
-[]()
+[https://ismailkaraalioglu-covid19tracker.netlify.app/](https://ismailkaraalioglu-covid19tracker.netlify.app/)
 
 ## :computer: Setup
 
