@@ -6,9 +6,9 @@ function Footer() {
   const language = useSelector((state) => state.site.language);
 
   return (
-    <footer className="text-center pt-7 dark:bg-gray-900">
+    <footer className="text-center pt-7 dark:bg-gray-900 w-full">
       {language ? (
-        <h1 className="text-2xl font-bold pt-5 dark:text-white">
+        <h1 className="md:text-2xl text-lg font-bold pt-5 dark:text-white">
           <a
             className="text-blue-700 hover:opacity-60"
             href="https://github.com/ismailkaraalioglu/React-Redux-Covid19Tracker"
@@ -18,7 +18,7 @@ function Footer() {
           tarafından hazırlanmıştır.
         </h1>
       ) : (
-        <h1 className="text-2xl font-bold pt-5 dark:text-white">
+        <h1 className="md:text-2xl text-lg font-bold pt-5 dark:text-white">
           Created with care by{" "}
           <a
             className="text-blue-700 hover:opacity-60"

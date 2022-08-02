@@ -23,7 +23,7 @@ function GlobalData() {
   }, [globalDataCovidStatus, dispatch]);
 
   return (
-    <div className="flex justify-center gap-x-36 pt-10">
+    <div className="md:flex md:justify-center md:gap-x-36 md:pt-10">
       <div className="flex justify-center items-center gap-x-6">
         <div className="h-[400px] w-[230px]">
           <img
@@ -47,10 +47,10 @@ function GlobalData() {
 
       <div>
         <div>
-          <p className="text-3xl font-semibold text-gray-600 dark:text-white">
+          <p className="text-3xl md:text-left text-center font-semibold text-gray-600 dark:text-white">
             {language ? "Global Veri" : "Global Data"}
           </p>
-          <p className=" font-medium text-xs text-gray-600 dark:text-white">
+          <p className="font-medium text-xs md:text-left text-center text-gray-600 dark:text-white">
             {globalDataCovid && !language && (
               <>
                 <span>Last Updated:</span>{" "}

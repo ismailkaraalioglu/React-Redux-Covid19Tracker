@@ -39,8 +39,8 @@ function CountryDetail({ countries }) {
           )}
         </p>
       </div>
-      <div className="flex justify-center gap-x-16">
-        <div className="w-[200px] h-[220px] rounded-lg shadow bg-blue-200">
+      <div className="md:flex md:justify-center md:gap-x-16">
+        <div className="md:w-[200px] h-[220px] w-full text-center md:text-left rounded-lg shadow bg-blue-200 mb-2">
           <div className="pl-5 pt-6">
             <h2 className="mb-2 font-bold">
               {language ? "Enfekte" : "Infected"}
@@ -100,7 +100,7 @@ function CountryDetail({ countries }) {
           </div>
         </div>
 
-        <div className="w-[200px] h-[220px] rounded-lg shadow bg-red-200">
+        <div className="md:w-[200px] h-[220px] w-full text-center md:text-left rounded-lg shadow bg-red-200 mb-2">
           <div className="pl-5 pt-6">
             <h2 className="mb-2 font-bold">{language ? "Ölüm" : "Deaths"}</h2>
             <p className="mb-5 text-2xl">
@@ -158,7 +158,7 @@ function CountryDetail({ countries }) {
           </div>
         </div>
 
-        <div className="w-[200px] h-[220px] rounded-lg shadow bg-yellow-200">
+        <div className="md:w-[200px] h-[220px] w-full text-center md:text-left rounded-lg shadow bg-yellow-200">
           <div className="pl-5 pt-6">
             <h2 className="mb-2 font-bold">{language ? "Aktif" : "Active"}</h2>
             <p className="mb-5 text-2xl">

@@ -5,7 +5,7 @@ import GlobalData from "./GlobalData";
 
 function Main() {
   return (
-    <main className="dark:bg-gray-900">
+    <main className="dark:bg-gray-900 w-full">
       <GlobalData />
       <Dropdown />
       <ChartTable />

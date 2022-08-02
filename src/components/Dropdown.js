@@ -25,7 +25,7 @@ function Dropdown() {
 
   return (
     <>
-      <div className="w-[500px] h-[40px] mx-auto mt-10">
+      <div className="md:w-[500px] md:h-[40px] md:mx-auto mt-10">
         <select
           value={countries}
           onChange={handleCountries}

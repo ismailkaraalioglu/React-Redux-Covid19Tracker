@@ -60,7 +60,7 @@ function ChartTable() {
   const language = useSelector((state) => state.site.language);
 
   return (
-    <div className="text-center mt-7 w-[800px] mx-auto">
+    <div className="text-center mt-7 md:w-[800px] md:mx-auto w-full mx-auto">
       <h1 className="text-xl font-semibold text-gray-600 dark:text-white">
         {language ? "Seçilen Ülke Sonuçları" : "Selected Country Results"}
       </h1>

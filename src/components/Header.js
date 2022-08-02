@@ -30,8 +30,8 @@ function Header() {
   };
 
   return (
-    <header className="bg-white py-3 dark:bg-slate-700">
-      <div className="md:max-w-7xl md:mx-auto md:flex md:items-center md:justify-between">
+    <header className="bg-white py-3 dark:bg-slate-700 w-full">
+      <div className="md:max-w-7xl md:mx-auto md:flex md:items-center md:justify-between w-full flex justify-between">
         <a href="/" className="ml-5">
           <div>
             <img
@@ -39,7 +39,7 @@ function Header() {
               src={require("../images/image.png")}
               alt="covidtrackerlogo"
             />
-            <p className="font-oswald font-extrabold md:text-sm">
+            <p className="font-oswald font-extrabold md:text-sm text-[9.5px]">
               Global and Country Wise Cases of Corona Virus
             </p>
           </div>
@@ -47,17 +47,20 @@ function Header() {
 
         <div className="mr-5 flex gap-x-3">
           <div
-            className="bg-zinc-200 w-11 h-11 shadow-sm rounded-md cursor-pointer hover:bg-zinc-300 select-none dark:bg-gray-900 dark:text-white dark:hover:bg-gray-800"
+            className="bg-zinc-200 md:w-11 md:h-11 w-9 h-9 shadow-sm rounded-md cursor-pointer hover:bg-zinc-300 select-none dark:bg-gray-900 dark:text-white dark:hover:bg-gray-800"
             onClick={handleThemeMode}
           >
             {darkMode ? (
-              <FaSun className="mx-auto relative top-1/4" size={20} />
+              <FaSun className="mx-auto relative md:top-1/4 top-2" size={20} />
             ) : (
-              <FaMoon className="mx-auto relative top-1/4" size={20} />
+              <FaMoon
+                className="mx-auto relative md:top-1/4 top-1/4"
+                size={20}
+              />
             )}
           </div>
           <div
-            className="bg-zinc-200 w-11 h-11 shadow-sm text-center leading-10 rounded-md cursor-pointer hover:bg-zinc-300 select-none dark:bg-gray-900 dark:text-white dark:hover:bg-gray-800"
+            className="bg-zinc-200 md:w-11 md:h-11 w-9 h-9 shadow-sm text-center md:leading-10 leading-8 rounded-md cursor-pointer hover:bg-zinc-300 select-none dark:bg-gray-900 dark:text-white dark:hover:bg-gray-800"
             onClick={handleLanguage}
           >
             {langMode ? "EN" : "TR"}
